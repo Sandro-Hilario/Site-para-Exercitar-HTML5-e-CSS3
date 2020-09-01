@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sandro Hilario">
+    <meta name="description" content="Exercicios em HTML5 e CSS3">
+    <meta name="keywords" content="HTML5, CSS3, Exercicios">
+    <title>Loja de Objetos para Presentes</title>
+    <link rel="icon" type="text/css" href="img/store-icon.ico" media="all" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="css/pratica.css" media="all">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <a href="index.html"><img src="img/market.png" alt="Store" title="Logo Store" class="logo"></a>
+            <figcaption style="color: white; font-size: 20px; margin-top: 25px;">Loja de Objetos</figcaption>
+        </figure>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <h1>Entre em Contato comigo</h1>
+    <form action="contato.php" method="POST" id="info">
+        <fieldset>
+            <legend>Seus Dados</legend>
+
+            <label>Nome Completo:</label>
+            <input type="text" name="nome" required autocomplete="on" autofocus><br>
+
+            <label>Telefone + DDD:</label>
+            <input type="tel" name="telefone" placeholder=" Ex: (DDD) + 98536-8734" maxlength="11" required><br>
+
+            <label>E-mail:</label>
+            <input type="email" name="email" placeholder="seuemail@email.com" autofocus required><br>
+
+            <label>Motivos para Contato:</label><br>
+            <select name="motivos" id="selecionar">
+                <optgroup>
+                    <option value="para conversa">Para Conversa</option>
+                    <option value="para sugestao">Para Sugestão</option>
+                    <option value="para algun trabalho freelancer">Para algun Trabalho Freelancer</option>
+                    <option value="voce viu algo no site errado">Você viu Algo no Site Errado?</option>
+                    <option value="para alguma ajuda especifica">Para alguma Ajuda Especifica?</option>
+                </optgroup>
+            </select><br><br>
+            <label>Infromação Extra:</label><br>
+            <textarea name="sugestoes" rows="10" cols="35" spellcheck="true" maxlength="250" placeholder="Sua opnião é muito importante..."></textarea><br><br>
+            <button type="submit" name="enviar" value="Enviar">Enviar</button>
+            <button type="reset" name="limpar" value="limpar formulario">Limpar</button>
+        </fieldset>
+    </form>
+
+    <footer id="rodape">
+        <address>
+            <p>Feito por Sandro Hilario - 2020 (Todos os Direitos Reservados) <a href="mailto:sandro@email.com" style="text-transform: none;">sandro@email.com</a></p>
+        </address>
+    </footer>
+</body>
+
+</html>

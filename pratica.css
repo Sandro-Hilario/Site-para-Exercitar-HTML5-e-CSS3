@@ -1,0 +1,196 @@
+/* CSS RESET PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* PRIMEIRA GUIA DO SITE A INDEX (home)*/
+/* CABEÇALHO DE NAVEGAÇÃO */
+ul,
+a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px white;
+}
+
+.logo {
+    float: left;
+    margin: 15px;
+}
+
+ul {
+    float: right;
+    margin-top: -40px;
+}
+
+/* CABEÇALHO GERAL */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(188, 46, 34, 0.88);
+}
+
+/* TÍTULOS DO CONTEUDO*/
+h1,
+h2,
+h3 {
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 4px 5px red;
+}
+
+.mao-cel {
+    border: solid 1px black;
+    margin-left: 150px;
+}
+
+img {
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.caderno {
+    float: left;
+}
+
+.iphone {
+    float: left;
+}
+
+#conteudo3 {
+    margin-top: 2%;
+}
+
+p {
+    width: 99%;
+    margin-top: 25px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 25px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/* RODAPE DA PAGINA */
+#rodape {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(188, 46, 34, 0.88);
+    color: #fff;
+    padding: 3px;
+}
+#rodape > address {
+    margin-left: 250px
+}
+
+#sobre-mim {
+    width: 550px;
+    border-radius: 45%;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 450px;
+    left: 500px;
+}
+
+/* SEGUNDA GUIA A SOBRE MIM */
+#sobre-mim > h4 {
+    font-size: 40px;
+}
+#sobre-mim > p {
+    font-size: 25px;
+    margin: 15px;
+}
+#sobre-mim figcaption {
+    font-size: 30px;
+}
+#sobre-mim p{
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* TERCEIRA GUA MINHAS HABILIDADES (SKILLS) */
+#skills > li {
+    float: none;    
+    font-size: 2.5em;
+    cursor: pointer;
+    margin: 10px;
+}
+fieldset > legend {
+    font-size: 30px;
+}
+section {
+    background-color: darkgray;
+    text-align: center;
+}
+section > h1 {
+    font-size: 45px;
+}
+#skills > li:last-child {
+    margin-bottom: 0;
+}
+/* QUARTA GUIA CONTATOS FORMULARIO */
+#info {
+    padding: 15px;
+    background-color: #ccc;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 285px;
+    -webkit-box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px 2px black;
+}
+#info, input, button {
+    padding: 10px;
+    margin: 10px;
+}
+#info label {
+    font-size: 1.2em;
+}
+input[type="text"] {
+    width: 400px;
+}
+input[type="tel"] {
+    width: 250px;
+}
+input[type="email"] {
+    width: 230px;
+}
+#selecionar {
+    padding: 10px;
+}
+#info fieldset {
+    padding: 30px;
+}
+button {
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    width: 150px;
+    font-size: 20px;
+    -webkit-box-shadow: 4px 5px 8px black;
+    cursor: pointer;
+    box-shadow: 4px 5px 8px black;
+}
+#info input, select {
+    border-radius: 5px;
+}
+select option {
+    font-size: 14px;
+}
